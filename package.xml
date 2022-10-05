@@ -35,6 +35,8 @@
   </author>
 
   <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>ninja-build</buildtool_depend>
+  <buildtool_depend>stow</buildtool_depend>
 
   <build_depend>git</build_depend>
   <build_depend>google-mock</build_depend>
@@ -42,8 +44,7 @@
   <build_depend>python3-sphinx</build_depend>
   <build_depend>libgmock-dev</build_depend>
 
-  <depend>ninja-build</depend>
-  <depend>stow</depend>
+
 
   <depend>libboost-iostreams-dev</depend>
   <depend>eigen</depend>
@@ -52,6 +53,7 @@
   <depend>libceres-dev</depend>
   <depend>libgflags-dev</depend>
   <depend>libgoogle-glog-dev</depend>
+  <depend>liblua5.2-dev</depend>
   <depend>lua5.2-dev</depend>
   <depend>protobuf-dev</depend>
 
